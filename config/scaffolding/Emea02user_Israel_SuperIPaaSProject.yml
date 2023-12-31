@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: Emea02user_Israel_SuperIPaaSProject
+  gitServerName: michalit0
+  gitUrl: https://github.com/michalit0/Emea02user_Israel_SuperIPaaSProject
+  gitUsername: michalit0
+  gitBranch: main
