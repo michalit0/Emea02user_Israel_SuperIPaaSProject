@@ -12,3 +12,7 @@ services:
   packages:
   - name: Emea02user_Israel_SuperIPaaSProject
     version: "1.0"
+- serviceName: pub.flow:setCustomContextID
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
