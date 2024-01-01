@@ -2661,6 +2661,145 @@
           <value name="rec_closed">true</value>
           <value name="modifiable">true</value>
         </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="node_type">record</value>
+          <value name="node_subtype">unknown</value>
+          <value name="node_comment">transaction</value>
+          <record name="node_hints" javaclass="com.wm.util.Values">
+          </record>
+          <value name="is_public">false</value>
+          <value name="field_name">TransactionDetails</value>
+          <value name="field_type">record</value>
+          <value name="field_dim">0</value>
+          <value name="nillable">true</value>
+          <value name="form_qualified">false</value>
+          <value name="is_global">false</value>
+          <array name="rec_fields" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">transactionID</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">transactionID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">senderID</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">senderID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">receiverID</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">receiverID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">documentTypeID</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">documentTypeID</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">userStatus</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">userStatus</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment">transactionStatus</value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">transactionStatus</value>
+              <value name="field_type">string</value>
+              <value name="field_dim">0</value>
+              <value name="field_opt">true</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="node_type">field</value>
+              <value name="node_subtype">unknown</value>
+              <value name="node_comment"></value>
+              <record name="node_hints" javaclass="com.wm.util.Values">
+                <value name="field_largerEditor">false</value>
+                <value name="field_password">false</value>
+                <value name="field_usereditable">false</value>
+              </record>
+              <value name="is_public">false</value>
+              <value name="field_name">customAttributes</value>
+              <value name="field_type">record</value>
+              <value name="field_dim">0</value>
+              <value name="nillable">true</value>
+              <value name="form_qualified">false</value>
+              <value name="is_global">false</value>
+              <array name="rec_fields" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">field</value>
+                  <value name="node_subtype">unknown</value>
+                  <value name="node_comment"></value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <value name="field_largerEditor">false</value>
+                    <value name="field_password">false</value>
+                    <value name="field_usereditable">false</value>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">DocID</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
+              </array>
+              <value name="modifiable">true</value>
+            </record>
+          </array>
+          <value name="modifiable">true</value>
+        </record>
       </array>
       <value name="modifiable">true</value>
     </record>
@@ -2681,7 +2820,6 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">true</value>
-            <value name="id">f401d540-a88d-11ee-a551-b355db477082</value>
           </record>
           <value name="is_public">false</value>
           <value name="field_name">Shipment_Main</value>
@@ -2698,7 +2836,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d541-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentAttachments</value>
@@ -2905,7 +3042,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d542-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentCustomsDuties</value>
@@ -3040,7 +3176,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d543-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentDeliveryOrder</value>
@@ -3246,7 +3381,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d544-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentDetails</value>
@@ -4155,7 +4289,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d545-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentPOs</value>
@@ -4183,7 +4316,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d546-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentPackages</value>
@@ -4511,7 +4643,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d547-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentReferences</value>
@@ -4598,7 +4729,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d548-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentStatus</value>
@@ -4733,7 +4863,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d549-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentVendorInvoices</value>
@@ -4939,7 +5068,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d54a-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ShipmentVoyages</value>
@@ -5170,7 +5298,6 @@
                 <value name="field_largerEditor">false</value>
                 <value name="field_password">false</value>
                 <value name="field_usereditable">true</value>
-                <value name="id">f401d540-a88d-11ee-a551-b355db477082/f401d54b-a88d-11ee-a551-b355db477082</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">clsRequestContentHeader</value>
@@ -5350,7 +5477,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704103839338</value>
+    <value name="lastModifiedDate">1704103885931</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
