@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/michalit0/Emea02user_Israel_SuperIPaaSProject
   gitUsername: michalit0
   gitBranch: main
+services:
+- serviceName: project.emea02user_israel_superipaas.integrations:ShipmentHandler
+  packages:
+  - name: Emea02user_Israel_SuperIPaaSProject
+    version: "1.0"
