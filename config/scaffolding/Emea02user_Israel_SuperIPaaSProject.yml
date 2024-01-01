@@ -20,3 +20,11 @@ services:
   packages:
   - name: Emea02user_Israel_SuperIPaaSProject
     version: "1.0"
+- serviceName: project.emea02user_israel_superipaas.integrations:B64ShipmentHandler
+  packages:
+  - name: Emea02user_Israel_SuperIPaaSProject
+    version: "1.0"
+- serviceName: pub.string:base64Decode
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
