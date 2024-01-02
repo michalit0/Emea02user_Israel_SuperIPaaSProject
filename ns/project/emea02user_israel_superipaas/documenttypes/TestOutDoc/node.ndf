@@ -13,7 +13,7 @@
         <number name="createdDate" type="Long">1704189861522</number>
         <value name="lastModifiedBy">emea02user</value>
         <value name="lastModifiedByUserId">b9662661230f443ea7efaf7e954dcaed</value>
-        <number name="lastModifiedDate" type="Long">1704189861522</number>
+        <number name="lastModifiedDate" type="Long">1704189873394</number>
       </record>
       <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
@@ -63,5 +63,6 @@
       </record>
     </array>
     <value name="modifiable">true</value>
+    <value name="updateRSD">true</value>
   </record>
 </Values>
