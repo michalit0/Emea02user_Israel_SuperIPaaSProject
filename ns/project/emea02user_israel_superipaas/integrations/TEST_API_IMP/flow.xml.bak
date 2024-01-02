@@ -44,70 +44,6 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">Shipment_Main</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">shipment</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">record</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">shipCarrier</value>
-            <value name="field_type">record</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-            <array name="rec_fields" type="record" depth="1">
-              <record javaclass="com.wm.util.Values">
-                <value name="node_type">unknown</value>
-                <value name="node_subtype">unknown</value>
-                <value name="is_public">false</value>
-                <value name="field_name">code</value>
-                <value name="field_type">string</value>
-                <value name="field_dim">0</value>
-                <value name="nillable">true</value>
-                <value name="form_qualified">false</value>
-                <value name="is_global">false</value>
-              </record>
-            </array>
-            <value name="modifiable">true</value>
-          </record>
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">unknown</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">Type</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
         <value name="field_name">DocDataOut</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
@@ -126,6 +62,31 @@
             </record>
             <value name="is_public">false</value>
             <value name="field_name">STR_OUT_1</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+        </array>
+        <value name="modifiable">true</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">shipment</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">Type</value>
             <value name="field_type">string</value>
             <value name="field_dim">0</value>
             <value name="nillable">true</value>
@@ -190,31 +151,6 @@
         </array>
         <value name="modifiable">true</value>
       </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">Shipment_Main</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">unknown</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">ShipmentPOs</value>
-            <value name="field_type">string</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-          </record>
-        </array>
-        <value name="modifiable">true</value>
-      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -223,7 +159,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Shipment_Main;2;0/ShipmentPOs;1;0" TO="/shipment;2;0/shipCarrier;2;0/code;1;0">
+<MAPCOPY FROM="/TestInputData;2;0" TO="/DocDataOut;2;0">
 </MAPCOPY>
 
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/shipment;2;0/Type;1;0">
@@ -234,8 +170,5 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPCOPY FROM="/TestInputData;2;0" TO="/DocDataOut;2;0">
-</MAPCOPY>
 </MAP>
 </FLOW>
