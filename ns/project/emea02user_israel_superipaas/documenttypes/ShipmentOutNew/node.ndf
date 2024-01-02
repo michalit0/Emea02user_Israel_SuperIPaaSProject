@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1704185385235</number>
         <value name="lastModifiedBy">emea02user</value>
         <value name="lastModifiedByUserId">b9662661230f443ea7efaf7e954dcaed</value>
-        <number name="lastModifiedDate" type="Long">1704185385244</number>
+        <number name="lastModifiedDate" type="Long">1704185422569</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">9bdf4053b9e2401d9ba4a7dc54ee278c</value>
+    <value name="schemaDomain">b2d2979370b94b0ba0da0427db92b834</value>
     <value name="originURI">_ShipmentXMLOut_SAG.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">shipment</value>
         <value name="field_type">record</value>
@@ -39,6 +45,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">Type</value>
             <value name="field_type">string</value>
@@ -61,6 +72,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">shipCarrier</value>
             <value name="field_type">record</value>
@@ -142,6 +158,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">shipReferences</value>
             <value name="field_type">record</value>
@@ -216,6 +237,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">shipPackages</value>
             <value name="field_type">record</value>
@@ -423,6 +449,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">shipDetails</value>
             <value name="field_type">record</value>
@@ -1970,6 +2001,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">flights</value>
             <value name="field_type">record</value>
@@ -2198,6 +2234,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">attachments</value>
             <value name="field_type">record</value>
