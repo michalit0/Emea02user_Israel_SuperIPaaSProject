@@ -44,11 +44,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704187445348</value>
+    <value name="lastModifiedDate">1704187474190</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">8157077694e245b99b6657fc82e2c5da</value>
+      <value name="id">cbf0578ddb0343bd8b248d908fc15909</value>
       <value name="group">default</value>
-      <value name="name">emea02user_il_presa_edge1</value>
+      <value name="name">emea02user_EDGE_Israel_01</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">ComplexDataHandler</value>
