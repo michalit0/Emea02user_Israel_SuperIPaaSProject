@@ -1,0 +1,2324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">project.emea02user_israel_superipaas.documenttypes:ShipmentOutNew</value>
+    <value name="node_pkg">Emea02user_Israel_SuperIPaaSProject</value>
+    <record name="node_hints" javaclass="com.wm.util.Values">
+      <record name="revisionData" javaclass="com.wm.util.Values">
+        <value name="createdBy">emea02user</value>
+        <value name="createdByUserId">b9662661230f443ea7efaf7e954dcaed</value>
+        <number name="createdDate" type="Long">1704185385235</number>
+        <value name="lastModifiedBy">emea02user</value>
+        <value name="lastModifiedByUserId">b9662661230f443ea7efaf7e954dcaed</value>
+        <number name="lastModifiedDate" type="Long">1704185385244</number>
+      </record>
+    </record>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">9bdf4053b9e2401d9ba4a7dc54ee278c</value>
+    <value name="originURI">_ShipmentXMLOut_SAG.xsd</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">shipment</value>
+        <value name="field_type">record</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">Type</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <record name="field_content_type" javaclass="com.wm.util.Values">
+              <value name="contentType">1</value>
+              <value name="internalType">reference</value>
+              <value name="dataTypeVersion">dtVersion2</value>
+              <array name="targetNames" type="record" depth="1">
+                <record javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                  <value name="ncName">string</value>
+                </record>
+              </array>
+            </record>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">shipCarrier</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">code</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">carrierReference</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedInt</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">service</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">shipReferences</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">shipReference</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">type</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">reference</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedInt</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">shipPackages</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">shipPackage</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">1</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <value name="is_soap_array_encoding_used">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">packageType</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">packageNumber</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedByte</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">sealNumber</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">length</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedByte</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">width</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedByte</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">height</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedByte</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">weight</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">decimal</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">weightUnit</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">shipDetails</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">Incoterms</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">IncotermsLocation</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">value</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">currency</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">pieces</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedByte</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">weight</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">decimal</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">weightDim</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">decimal</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">weightUnit</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">volume</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">decimal</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">notes</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">pickupDate</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedInt</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">pickupTime</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedShort</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">etaDate</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedInt</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">etaTime</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">unsignedByte</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">LastStatus</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">OriginPort</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">DestPort</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">Agent</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">Airline</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">ContainerType</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <record name="field_content_type" javaclass="com.wm.util.Values">
+                  <value name="contentType">1</value>
+                  <value name="internalType">reference</value>
+                  <value name="dataTypeVersion">dtVersion2</value>
+                  <array name="targetNames" type="record" depth="1">
+                    <record javaclass="com.wm.util.Values">
+                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                      <value name="ncName">string</value>
+                    </record>
+                  </array>
+                </record>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">supplier</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">textCode</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedInt</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">name</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">address</value>
+                    <value name="field_type">record</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <array name="rec_fields" type="record" depth="1">
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine1</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine2</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">city</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">state</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">zip</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">country</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">contact</value>
+                        <value name="field_type">record</value>
+                        <value name="field_dim">0</value>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                        <array name="rec_fields" type="record" depth="1">
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">name</value>
+                            <value name="field_type">string</value>
+                            <value name="field_dim">0</value>
+                            <record name="field_content_type" javaclass="com.wm.util.Values">
+                              <value name="contentType">1</value>
+                              <value name="internalType">reference</value>
+                              <value name="dataTypeVersion">dtVersion2</value>
+                              <array name="targetNames" type="record" depth="1">
+                                <record javaclass="com.wm.util.Values">
+                                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                  <value name="ncName">string</value>
+                                </record>
+                              </array>
+                            </record>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                          </record>
+                        </array>
+                        <value name="rec_closed">true</value>
+                        <value name="modifiable">true</value>
+                      </record>
+                    </array>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">billTo</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">textCode</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedShort</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">name</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">address</value>
+                    <value name="field_type">record</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <array name="rec_fields" type="record" depth="1">
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine1</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine2</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">city</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">unsignedShort</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">state</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">zip</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">unsignedInt</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">country</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">contact</value>
+                        <value name="field_type">record</value>
+                        <value name="field_dim">0</value>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                        <array name="rec_fields" type="record" depth="1">
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">name</value>
+                            <value name="field_type">string</value>
+                            <value name="field_dim">0</value>
+                            <record name="field_content_type" javaclass="com.wm.util.Values">
+                              <value name="contentType">1</value>
+                              <value name="internalType">reference</value>
+                              <value name="dataTypeVersion">dtVersion2</value>
+                              <array name="targetNames" type="record" depth="1">
+                                <record javaclass="com.wm.util.Values">
+                                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                  <value name="ncName">string</value>
+                                </record>
+                              </array>
+                            </record>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                          </record>
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">number</value>
+                            <value name="field_type">record</value>
+                            <value name="field_dim">1</value>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                            <value name="is_soap_array_encoding_used">false</value>
+                            <array name="rec_fields" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="node_type">record</value>
+                                <value name="node_subtype">unknown</value>
+                                <value name="is_public">false</value>
+                                <value name="field_name">type</value>
+                                <value name="field_type">string</value>
+                                <value name="field_dim">0</value>
+                                <record name="field_content_type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">1</value>
+                                  <value name="internalType">reference</value>
+                                  <value name="dataTypeVersion">dtVersion2</value>
+                                  <array name="targetNames" type="record" depth="1">
+                                    <record javaclass="com.wm.util.Values">
+                                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                      <value name="ncName">string</value>
+                                    </record>
+                                  </array>
+                                </record>
+                                <value name="nillable">false</value>
+                                <value name="form_qualified">false</value>
+                                <value name="is_global">false</value>
+                              </record>
+                              <record javaclass="com.wm.util.Values">
+                                <value name="node_type">record</value>
+                                <value name="node_subtype">unknown</value>
+                                <value name="is_public">false</value>
+                                <value name="field_name">number</value>
+                                <value name="field_type">string</value>
+                                <value name="field_dim">0</value>
+                                <record name="field_content_type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">1</value>
+                                  <value name="internalType">reference</value>
+                                  <value name="dataTypeVersion">dtVersion2</value>
+                                  <array name="targetNames" type="record" depth="1">
+                                    <record javaclass="com.wm.util.Values">
+                                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                      <value name="ncName">string</value>
+                                    </record>
+                                  </array>
+                                </record>
+                                <value name="nillable">false</value>
+                                <value name="form_qualified">false</value>
+                                <value name="is_global">false</value>
+                              </record>
+                            </array>
+                            <value name="rec_closed">true</value>
+                            <value name="modifiable">true</value>
+                          </record>
+                        </array>
+                        <value name="rec_closed">true</value>
+                        <value name="modifiable">true</value>
+                      </record>
+                    </array>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">ShipFrom</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">textCode</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedInt</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">name</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">address</value>
+                    <value name="field_type">record</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <array name="rec_fields" type="record" depth="1">
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine1</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine2</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">city</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">state</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">zip</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">country</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">contact</value>
+                        <value name="field_type">record</value>
+                        <value name="field_dim">0</value>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                        <array name="rec_fields" type="record" depth="1">
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">name</value>
+                            <value name="field_type">string</value>
+                            <value name="field_dim">0</value>
+                            <record name="field_content_type" javaclass="com.wm.util.Values">
+                              <value name="contentType">1</value>
+                              <value name="internalType">reference</value>
+                              <value name="dataTypeVersion">dtVersion2</value>
+                              <array name="targetNames" type="record" depth="1">
+                                <record javaclass="com.wm.util.Values">
+                                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                  <value name="ncName">string</value>
+                                </record>
+                              </array>
+                            </record>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                          </record>
+                        </array>
+                        <value name="rec_closed">true</value>
+                        <value name="modifiable">true</value>
+                      </record>
+                    </array>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">shipTo</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">textCode</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedShort</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">name</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">address</value>
+                    <value name="field_type">record</value>
+                    <value name="field_dim">0</value>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                    <array name="rec_fields" type="record" depth="1">
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine1</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">addressLine2</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">city</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">unsignedShort</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">state</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">zip</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">unsignedInt</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">country</value>
+                        <value name="field_type">string</value>
+                        <value name="field_dim">0</value>
+                        <record name="field_content_type" javaclass="com.wm.util.Values">
+                          <value name="contentType">1</value>
+                          <value name="internalType">reference</value>
+                          <value name="dataTypeVersion">dtVersion2</value>
+                          <array name="targetNames" type="record" depth="1">
+                            <record javaclass="com.wm.util.Values">
+                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                              <value name="ncName">string</value>
+                            </record>
+                          </array>
+                        </record>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                      </record>
+                      <record javaclass="com.wm.util.Values">
+                        <value name="node_type">record</value>
+                        <value name="node_subtype">unknown</value>
+                        <value name="is_public">false</value>
+                        <value name="field_name">contact</value>
+                        <value name="field_type">record</value>
+                        <value name="field_dim">0</value>
+                        <value name="nillable">false</value>
+                        <value name="form_qualified">false</value>
+                        <value name="is_global">false</value>
+                        <array name="rec_fields" type="record" depth="1">
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">name</value>
+                            <value name="field_type">string</value>
+                            <value name="field_dim">0</value>
+                            <record name="field_content_type" javaclass="com.wm.util.Values">
+                              <value name="contentType">1</value>
+                              <value name="internalType">reference</value>
+                              <value name="dataTypeVersion">dtVersion2</value>
+                              <array name="targetNames" type="record" depth="1">
+                                <record javaclass="com.wm.util.Values">
+                                  <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                  <value name="ncName">string</value>
+                                </record>
+                              </array>
+                            </record>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                          </record>
+                          <record javaclass="com.wm.util.Values">
+                            <value name="node_type">record</value>
+                            <value name="node_subtype">unknown</value>
+                            <value name="is_public">false</value>
+                            <value name="field_name">number</value>
+                            <value name="field_type">record</value>
+                            <value name="field_dim">1</value>
+                            <value name="nillable">false</value>
+                            <value name="form_qualified">false</value>
+                            <value name="is_global">false</value>
+                            <value name="is_soap_array_encoding_used">false</value>
+                            <array name="rec_fields" type="record" depth="1">
+                              <record javaclass="com.wm.util.Values">
+                                <value name="node_type">record</value>
+                                <value name="node_subtype">unknown</value>
+                                <value name="is_public">false</value>
+                                <value name="field_name">type</value>
+                                <value name="field_type">string</value>
+                                <value name="field_dim">0</value>
+                                <record name="field_content_type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">1</value>
+                                  <value name="internalType">reference</value>
+                                  <value name="dataTypeVersion">dtVersion2</value>
+                                  <array name="targetNames" type="record" depth="1">
+                                    <record javaclass="com.wm.util.Values">
+                                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                      <value name="ncName">string</value>
+                                    </record>
+                                  </array>
+                                </record>
+                                <value name="nillable">false</value>
+                                <value name="form_qualified">false</value>
+                                <value name="is_global">false</value>
+                              </record>
+                              <record javaclass="com.wm.util.Values">
+                                <value name="node_type">record</value>
+                                <value name="node_subtype">unknown</value>
+                                <value name="is_public">false</value>
+                                <value name="field_name">number</value>
+                                <value name="field_type">string</value>
+                                <value name="field_dim">0</value>
+                                <record name="field_content_type" javaclass="com.wm.util.Values">
+                                  <value name="contentType">1</value>
+                                  <value name="internalType">reference</value>
+                                  <value name="dataTypeVersion">dtVersion2</value>
+                                  <array name="targetNames" type="record" depth="1">
+                                    <record javaclass="com.wm.util.Values">
+                                      <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                                      <value name="ncName">string</value>
+                                    </record>
+                                  </array>
+                                </record>
+                                <value name="nillable">false</value>
+                                <value name="form_qualified">false</value>
+                                <value name="is_global">false</value>
+                              </record>
+                            </array>
+                            <value name="rec_closed">true</value>
+                            <value name="modifiable">true</value>
+                          </record>
+                        </array>
+                        <value name="rec_closed">true</value>
+                        <value name="modifiable">true</value>
+                      </record>
+                    </array>
+                    <value name="rec_closed">true</value>
+                    <value name="modifiable">true</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">flights</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">flight</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">airline</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">flightNo</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedShort</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">departurePort</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">arrivalPort</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">departureDate</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedInt</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">departureTime</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedByte</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">arrivalDate</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedInt</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">arrivalTime</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">unsignedShort</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">mawb</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">attachments</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">false</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <value name="is_public">false</value>
+                <value name="field_name">attachment</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">false</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">body</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">description</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">docType</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                  <record javaclass="com.wm.util.Values">
+                    <value name="node_type">record</value>
+                    <value name="node_subtype">unknown</value>
+                    <value name="is_public">false</value>
+                    <value name="field_name">fileName</value>
+                    <value name="field_type">string</value>
+                    <value name="field_dim">0</value>
+                    <record name="field_content_type" javaclass="com.wm.util.Values">
+                      <value name="contentType">1</value>
+                      <value name="internalType">reference</value>
+                      <value name="dataTypeVersion">dtVersion2</value>
+                      <array name="targetNames" type="record" depth="1">
+                        <record javaclass="com.wm.util.Values">
+                          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                          <value name="ncName">string</value>
+                        </record>
+                      </array>
+                    </record>
+                    <value name="nillable">false</value>
+                    <value name="form_qualified">false</value>
+                    <value name="is_global">false</value>
+                  </record>
+                </array>
+                <value name="rec_closed">true</value>
+                <value name="modifiable">true</value>
+              </record>
+            </array>
+            <value name="rec_closed">true</value>
+            <value name="modifiable">true</value>
+          </record>
+        </array>
+        <value name="rec_closed">true</value>
+        <value name="modifiable">true</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+    <value name="updateRSD">true</value>
+  </record>
+</Values>
