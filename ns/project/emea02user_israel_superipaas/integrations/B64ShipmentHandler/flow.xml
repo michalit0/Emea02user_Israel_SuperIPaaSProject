@@ -678,7 +678,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="JSON" SERVICE="pub.json:jsonStreamToDocument">
+<INVOKE NAME="JSON" SERVICE="pub.json:jsonStreamToDocument" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->

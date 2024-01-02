@@ -36,3 +36,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.656
+- serviceName: pub.document:bytesToDocument
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
