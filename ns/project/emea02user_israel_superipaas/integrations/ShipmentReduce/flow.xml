@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/Shipment_Main;2;0/ShipmentDetails;2;0" TO="/ShipmentOut;2;0/ShipmentDetails;2;0">
+</MAPCOPY>
+</MAP>
+</FLOW>
