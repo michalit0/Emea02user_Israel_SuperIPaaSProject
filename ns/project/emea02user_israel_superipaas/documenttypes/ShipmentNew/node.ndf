@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1704185320583</number>
         <value name="lastModifiedBy">emea02user</value>
         <value name="lastModifiedByUserId">b9662661230f443ea7efaf7e954dcaed</value>
-        <number name="lastModifiedDate" type="Long">1704185320593</number>
+        <number name="lastModifiedDate" type="Long">1704185327206</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,17 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">c38b38c787424918a6dc5c2382d76bbf</value>
+    <value name="schemaDomain">699f7b9af8b74e9fa42ab60ac57654df</value>
     <value name="originURI">Shipment_511199291_4958750.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">Shipment_Main</value>
         <value name="field_type">record</value>
@@ -39,6 +45,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentAttachments</value>
             <value name="field_type">record</value>
@@ -50,6 +61,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">Attachment</value>
                 <value name="field_type">record</value>
@@ -62,6 +75,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Body</value>
                     <value name="field_type">string</value>
@@ -84,6 +99,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Description</value>
                     <value name="field_type">string</value>
@@ -106,6 +123,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">DocType</value>
                     <value name="field_type">string</value>
@@ -128,6 +147,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ExternalAttachmentID</value>
                     <value name="field_type">string</value>
@@ -150,6 +171,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">FileName</value>
                     <value name="field_type">string</value>
@@ -172,6 +195,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">IsDigital</value>
                     <value name="field_type">string</value>
@@ -194,6 +219,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Reference</value>
                     <value name="field_type">string</value>
@@ -224,6 +251,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentCustomsDuties</value>
             <value name="field_type">record</value>
@@ -235,6 +267,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SHIPMENT_ShipmentCustomsDuties</value>
                 <value name="field_type">record</value>
@@ -247,6 +281,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">CustomsChargeAmount</value>
                     <value name="field_type">string</value>
@@ -269,6 +305,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">CustomsChargeCode</value>
                     <value name="field_type">string</value>
@@ -291,6 +329,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">CustomsChargeCurrency</value>
                     <value name="field_type">string</value>
@@ -313,6 +353,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">CustomsChargeName</value>
                     <value name="field_type">string</value>
@@ -343,6 +385,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentDeliveryOrder</value>
             <value name="field_type">record</value>
@@ -354,6 +401,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">DeliveryOrder_Details</value>
                 <value name="field_type">record</value>
@@ -365,6 +414,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">DeliveryOrderLines</value>
                     <value name="field_type">string</value>
@@ -387,6 +438,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Destination</value>
                     <value name="field_type">string</value>
@@ -409,6 +462,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">DestinationAddress</value>
                     <value name="field_type">string</value>
@@ -431,6 +486,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Origin</value>
                     <value name="field_type">string</value>
@@ -453,6 +510,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Quantity</value>
                     <value name="field_type">string</value>
@@ -475,6 +534,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Volume</value>
                     <value name="field_type">string</value>
@@ -497,6 +558,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Weight</value>
                     <value name="field_type">string</value>
@@ -527,6 +590,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentDetails</value>
             <value name="field_type">record</value>
@@ -538,6 +606,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">B2B</value>
                 <value name="field_type">string</value>
@@ -560,6 +630,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">Carrier</value>
                 <value name="field_type">string</value>
@@ -582,6 +654,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ChargeableWeight</value>
                 <value name="field_type">string</value>
@@ -604,6 +678,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CompanyCoutryCode</value>
                 <value name="field_type">string</value>
@@ -626,6 +702,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CompanyID</value>
                 <value name="field_type">string</value>
@@ -648,6 +726,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CustomerServiceEmail</value>
                 <value name="field_type">string</value>
@@ -670,6 +750,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CustomerServiceName</value>
                 <value name="field_type">string</value>
@@ -692,6 +774,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CustomerServicePhone</value>
                 <value name="field_type">string</value>
@@ -714,6 +798,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CustomsDeclarationDate</value>
                 <value name="field_type">string</value>
@@ -736,6 +822,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CustomsDeclarationNumber</value>
                 <value name="field_type">string</value>
@@ -758,6 +846,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">Destination</value>
                 <value name="field_type">string</value>
@@ -780,6 +870,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ForwarderShipmentNumber</value>
                 <value name="field_type">string</value>
@@ -802,6 +894,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ForwardingOrBrokerage</value>
                 <value name="field_type">string</value>
@@ -824,6 +918,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">GoodsValue</value>
                 <value name="field_type">string</value>
@@ -846,6 +942,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">GoodsValueCurrency</value>
                 <value name="field_type">string</value>
@@ -868,6 +966,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">GrossWeight</value>
                 <value name="field_type">string</value>
@@ -890,6 +990,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">IncoTerms</value>
                 <value name="field_type">string</value>
@@ -912,6 +1014,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">MasterWaybillNumber</value>
                 <value name="field_type">string</value>
@@ -934,6 +1038,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">MeasureUnit</value>
                 <value name="field_type">string</value>
@@ -956,6 +1062,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">Origin</value>
                 <value name="field_type">string</value>
@@ -978,6 +1086,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">POD</value>
                 <value name="field_type">string</value>
@@ -1000,6 +1110,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">POL</value>
                 <value name="field_type">string</value>
@@ -1022,6 +1134,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">Pieces</value>
                 <value name="field_type">string</value>
@@ -1044,6 +1158,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ProductType</value>
                 <value name="field_type">string</value>
@@ -1066,6 +1182,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ShipmentMode</value>
                 <value name="field_type">string</value>
@@ -1088,6 +1206,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">TranportationShipperDepartment</value>
                 <value name="field_type">string</value>
@@ -1110,6 +1230,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">TransportationType</value>
                 <value name="field_type">string</value>
@@ -1132,6 +1254,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VendorName</value>
                 <value name="field_type">string</value>
@@ -1154,6 +1278,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VendorNumber</value>
                 <value name="field_type">string</value>
@@ -1176,6 +1302,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VendorTaxNumber</value>
                 <value name="field_type">string</value>
@@ -1198,6 +1326,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VesselName</value>
                 <value name="field_type">string</value>
@@ -1220,6 +1350,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VolumeCBM</value>
                 <value name="field_type">string</value>
@@ -1242,6 +1374,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VolumeUnit</value>
                 <value name="field_type">string</value>
@@ -1264,6 +1398,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VolumeWeight</value>
                 <value name="field_type">string</value>
@@ -1286,6 +1422,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">WaybillNumber</value>
                 <value name="field_type">string</value>
@@ -1308,6 +1446,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">WaybillType</value>
                 <value name="field_type">string</value>
@@ -1330,6 +1470,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">WeightUnit</value>
                 <value name="field_type">string</value>
@@ -1356,6 +1498,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentPOs</value>
             <value name="field_type">string</value>
@@ -1378,6 +1525,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentPackages</value>
             <value name="field_type">record</value>
@@ -1389,6 +1541,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SHIPMENT_ShipmentPackages</value>
                 <value name="field_type">record</value>
@@ -1400,6 +1554,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">DimensionUnitType</value>
                     <value name="field_type">string</value>
@@ -1422,6 +1578,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">GrossWeight</value>
                     <value name="field_type">string</value>
@@ -1444,6 +1602,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Height</value>
                     <value name="field_type">string</value>
@@ -1466,6 +1626,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Length</value>
                     <value name="field_type">string</value>
@@ -1488,6 +1650,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">MarksAndNumbers</value>
                     <value name="field_type">string</value>
@@ -1510,6 +1674,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">PackageDescription</value>
                     <value name="field_type">string</value>
@@ -1532,6 +1698,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">PackageNo</value>
                     <value name="field_type">string</value>
@@ -1554,6 +1722,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">PackageSeal</value>
                     <value name="field_type">string</value>
@@ -1576,6 +1746,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">PackageType</value>
                     <value name="field_type">string</value>
@@ -1598,6 +1770,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VolumeCBM</value>
                     <value name="field_type">string</value>
@@ -1620,6 +1794,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VolumeWeight</value>
                     <value name="field_type">string</value>
@@ -1642,6 +1818,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Width</value>
                     <value name="field_type">string</value>
@@ -1672,6 +1850,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentReferences</value>
             <value name="field_type">record</value>
@@ -1683,6 +1866,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SHIPMENT_ShipmentReferences</value>
                 <value name="field_type">record</value>
@@ -1695,6 +1880,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Reference</value>
                     <value name="field_type">string</value>
@@ -1717,6 +1904,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ReferenceType</value>
                     <value name="field_type">string</value>
@@ -1747,6 +1936,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentStatus</value>
             <value name="field_type">record</value>
@@ -1758,6 +1952,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SHIPMENT_ShipmentStatus</value>
                 <value name="field_type">record</value>
@@ -1770,6 +1966,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">OpenBy</value>
                     <value name="field_type">string</value>
@@ -1792,6 +1990,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Remarks</value>
                     <value name="field_type">string</value>
@@ -1814,6 +2014,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">StatusCode</value>
                     <value name="field_type">string</value>
@@ -1836,6 +2038,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">StatusDate</value>
                     <value name="field_type">string</value>
@@ -1866,6 +2070,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentVendorInvoices</value>
             <value name="field_type">record</value>
@@ -1877,6 +2086,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">VendorInvoice</value>
                 <value name="field_type">record</value>
@@ -1888,6 +2099,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Currency</value>
                     <value name="field_type">string</value>
@@ -1910,6 +2123,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">InvoiceDate</value>
                     <value name="field_type">string</value>
@@ -1932,6 +2147,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">InvoiceNumber</value>
                     <value name="field_type">string</value>
@@ -1954,6 +2171,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">TotalAmount</value>
                     <value name="field_type">string</value>
@@ -1976,6 +2195,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VendorInvoiceLines</value>
                     <value name="field_type">string</value>
@@ -1998,6 +2219,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VendorName</value>
                     <value name="field_type">string</value>
@@ -2020,6 +2243,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VendorNumber</value>
                     <value name="field_type">string</value>
@@ -2050,6 +2275,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentVoyages</value>
             <value name="field_type">record</value>
@@ -2061,6 +2291,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SHIPMENT_ShipmentVoyages</value>
                 <value name="field_type">record</value>
@@ -2072,6 +2304,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ATA</value>
                     <value name="field_type">string</value>
@@ -2094,6 +2328,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ATD</value>
                     <value name="field_type">string</value>
@@ -2116,6 +2352,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Destination</value>
                     <value name="field_type">string</value>
@@ -2138,6 +2376,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ETA</value>
                     <value name="field_type">string</value>
@@ -2160,6 +2400,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">ETD</value>
                     <value name="field_type">string</value>
@@ -2182,6 +2424,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Leg</value>
                     <value name="field_type">string</value>
@@ -2204,6 +2448,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">Origin</value>
                     <value name="field_type">string</value>
@@ -2226,6 +2472,8 @@
                   <record javaclass="com.wm.util.Values">
                     <value name="node_type">record</value>
                     <value name="node_subtype">unknown</value>
+                    <record name="node_hints" javaclass="com.wm.util.Values">
+                    </record>
                     <value name="is_public">false</value>
                     <value name="field_name">VoyageNo</value>
                     <value name="field_type">string</value>
@@ -2256,6 +2504,11 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
+            <record name="node_hints" javaclass="com.wm.util.Values">
+              <value name="field_largerEditor">false</value>
+              <value name="field_password">false</value>
+              <value name="field_usereditable">true</value>
+            </record>
             <value name="is_public">false</value>
             <value name="field_name">clsRequestContentHeader</value>
             <value name="field_type">record</value>
@@ -2267,6 +2520,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CompanyCoutryCode</value>
                 <value name="field_type">string</value>
@@ -2289,6 +2544,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">CompanyID</value>
                 <value name="field_type">string</value>
@@ -2311,6 +2568,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">ExternalTransmittionID</value>
                 <value name="field_type">string</value>
@@ -2333,6 +2592,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SenderID</value>
                 <value name="field_type">string</value>
@@ -2355,6 +2616,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">SenderUniqueID</value>
                 <value name="field_type">string</value>
@@ -2377,6 +2640,8 @@
               <record javaclass="com.wm.util.Values">
                 <value name="node_type">record</value>
                 <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                </record>
                 <value name="is_public">false</value>
                 <value name="field_name">TransmitionDateTime</value>
                 <value name="field_type">string</value>
