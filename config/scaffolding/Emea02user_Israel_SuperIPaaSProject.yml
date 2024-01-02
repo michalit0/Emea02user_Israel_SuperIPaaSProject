@@ -44,3 +44,7 @@ services:
   packages:
   - name: Emea02user_Israel_SuperIPaaSProject
     version: "1.0"
+- serviceName: project.emea02user_israel_superipaas.integrations:TEST_API_IMP
+  packages:
+  - name: Emea02user_Israel_SuperIPaaSProject
+    version: "1.0"

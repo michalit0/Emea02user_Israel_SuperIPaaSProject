@@ -9,27 +9,25 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:ShipmentNew</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:ShipmentOutNew</value>
     </record>
   </record>
   <value name="description"></value>
@@ -45,9 +43,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">emea02user</value>
-    <value name="createdDate">1704189452982</value>
-    <value name="lastModifiedDate">1704189452982</value>
+    <value name="lastModifiedBy">emea02user</value>
+    <value name="lastModifiedDate">1704189521734</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -58,9 +55,23 @@
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="itemType">CONTROLS</value>
+        <value name="name">TRANSFORM</value>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <array name="map" type="object" depth="1">
+        </array>
+        <array name="mapSet" type="object" depth="1">
+        </array>
+        <array name="mapDelete" type="object" depth="1">
+        </array>
+        <array name="transformer" type="object" depth="1">
+        </array>
+        <array name="lookupTransformer" type="object" depth="1">
+        </array>
       </record>
+      <null name="/0/0"/>
+      <null name="/0/1"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
