@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FLOW VERSION="1.0" CLEANUP="false">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAP TIMEOUT="" MODE="STANDALONE">
+  <COMMENT></COMMENT>
+
+  <!-- nodes -->
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/AcceptanceDateTime;1;0" TO="/Response;2;0/Declaration;2;0/AcceptanceDateTime;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/DeclarationOfficeID;1;0" TO="/Response;2;0/Declaration;2;0/DeclarationOfficeID;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/ID;1;0" TO="/Response;2;0/Declaration;2;0/ID;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/IssueDateTime;1;0" TO="/Response;2;0/Declaration;2;0/IssueDateTime;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/TypeCode;1;0" TO="/Response;2;0/Declaration;2;0/TypeCode;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/Result;2;0/DF_NG_2754_MSG10004_ImportDeclarationResponse;2;0/Response;2;0/Declaration;2;0/DMExtensions;2;0/CustomsValueComponent;2;0" TO="/Response;2;0/CustomsValueComponent;2;0">
+</MAPCOPY>
+</MAP>
+</FLOW>
