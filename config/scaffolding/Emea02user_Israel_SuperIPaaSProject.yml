@@ -40,3 +40,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.656
+- serviceName: project.emea02user_israel_superipaas.integrations:ComplexDataHandler
+  packages:
+  - name: Emea02user_Israel_SuperIPaaSProject
+    version: "1.0"

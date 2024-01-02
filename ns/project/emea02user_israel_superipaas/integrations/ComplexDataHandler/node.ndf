@@ -43,9 +43,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">emea02user</value>
-    <value name="createdDate">1704185551510</value>
-    <value name="lastModifiedDate">1704185551510</value>
+    <value name="lastModifiedBy">emea02user</value>
+    <value name="lastModifiedDate">1704185664638</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -73,6 +72,7 @@
       </record>
       <null name="/0/0"/>
       <null name="/0/1"/>
+      <null name="/0/2"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
