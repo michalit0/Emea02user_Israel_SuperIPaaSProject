@@ -15,7 +15,7 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <value name="modifiable">true</value>
-      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:ShipmentNew</value>
+      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:TestInputDoc</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
@@ -27,7 +27,7 @@
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
       <value name="modifiable">true</value>
-      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:ShipmentOutNew</value>
+      <value name="rec_ref">project.emea02user_israel_superipaas.documenttypes:TestOutDoc</value>
     </record>
   </record>
   <value name="description"></value>
@@ -44,7 +44,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704189521734</value>
+    <value name="lastModifiedDate">1704189942023</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -72,6 +72,7 @@
       </record>
       <null name="/0/0"/>
       <null name="/0/1"/>
+      <null name="/0/2"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
