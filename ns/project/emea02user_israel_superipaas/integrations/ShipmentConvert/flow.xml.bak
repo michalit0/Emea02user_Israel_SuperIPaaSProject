@@ -393,9 +393,6 @@
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
-            <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81</value>
-            </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentDetails</value>
             <value name="field_type">record</value>
@@ -404,6 +401,539 @@
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
             <array name="rec_fields" type="record" depth="1">
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c2-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">B2B</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c3-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">Carrier</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c4-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">ChargeableWeight</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c5-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CompanyCoutryCode</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c6-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CompanyID</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c7-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CustomerServiceEmail</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c8-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CustomerServiceName</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2c9-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CustomerServicePhone</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2ca-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CustomsDeclarationDate</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2cb-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">CustomsDeclarationNumber</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2cc-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">Destination</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2cd-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">ForwarderShipmentNumber</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2ce-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">ForwardingOrBrokerage</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2cf-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">GoodsValue</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d0-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">GoodsValueCurrency</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d1-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">GrossWeight</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d2-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">IncoTerms</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d3-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">MasterWaybillNumber</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d4-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">MeasureUnit</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d5-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">Origin</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d6-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">POD</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d7-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">POL</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                </array>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d8-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">Pieces</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2d9-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">ProductType</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2da-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">ShipmentMode</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2db-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">TranportationShipperDepartment</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2dc-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">TransportationType</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2dd-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VendorName</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2de-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VendorNumber</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                </array>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2df-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VendorTaxNumber</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                </array>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e0-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VesselName</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                </array>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e1-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VolumeCBM</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">record</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e2-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VolumeUnit</value>
+                <value name="field_type">record</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+                <array name="rec_fields" type="record" depth="1">
+                </array>
+                <value name="modifiable">true</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e3-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">VolumeWeight</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e4-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">WaybillNumber</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e5-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">WaybillType</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <value name="node_type">unknown</value>
+                <value name="node_subtype">unknown</value>
+                <record name="node_hints" javaclass="com.wm.util.Values">
+                  <value name="id">79ddd2c0-aa20-11ee-a5df-ffc186a64d81/79ddd2c1-aa20-11ee-a5df-ffc186a64d81/79ddd2e6-aa20-11ee-a5df-ffc186a64d81</value>
+                </record>
+                <value name="is_public">false</value>
+                <value name="field_name">WeightUnit</value>
+                <value name="field_type">string</value>
+                <value name="field_dim">0</value>
+                <value name="nillable">true</value>
+                <value name="form_qualified">false</value>
+                <value name="is_global">false</value>
+              </record>
             </array>
             <value name="modifiable">true</value>
           </record>
@@ -463,7 +993,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/ShipmentOut;4;0;ShipmentPackage.documenttypes:ShipmentOUT" TO="/Shipment_Out;2;0">
+<MAPCOPY FROM="/ShipmentOut;4;0;ShipmentPackage.documenttypes:ShipmentOUT" TO="/Shipment_Out;2;0/ShipmentDetails;2;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>
