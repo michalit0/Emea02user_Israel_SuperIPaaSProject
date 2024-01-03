@@ -61,3 +61,13 @@ services:
   packages:
   - name: Emea02user_Israel_SuperIPaaSProject
     version: "1.0"
+- serviceName: project.emea02user_israel_superipaas.integrations:ShipmentConvert
+  packages:
+  - name: Emea02user_Israel_SuperIPaaSProject
+    version: "1.0"
+  - name: Shipment
+    version: "1.0"
+- serviceName: ShipmentPackage.integrations:ShipmentDetails
+  packages:
+  - name: Shipment
+    version: "1.0"
