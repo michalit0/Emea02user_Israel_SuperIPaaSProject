@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Shipment" SERVICE="ShipmentPackage.integrations:ShipmentDetails1">
+<INVOKE NAME="Shipment" SERVICE="ShipmentPackage.integrations:ShipmentDetails">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
