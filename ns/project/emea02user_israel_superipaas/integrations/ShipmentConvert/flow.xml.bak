@@ -97,7 +97,6 @@
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>
           <value name="field_usereditable">true</value>
-          <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">ShipmentDetails</value>
@@ -111,7 +110,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9981-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">B2B</value>
@@ -136,7 +134,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9982-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">Carrier</value>
@@ -161,7 +158,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9983-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">ChargeableWeight</value>
@@ -186,7 +182,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9984-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CompanyCoutryCode</value>
@@ -211,7 +206,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9985-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CompanyID</value>
@@ -236,7 +230,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9986-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CustomerServiceEmail</value>
@@ -261,7 +254,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9987-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CustomerServiceName</value>
@@ -286,7 +278,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9988-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CustomerServicePhone</value>
@@ -311,7 +302,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9989-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CustomsDeclarationDate</value>
@@ -336,7 +326,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998a-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">CustomsDeclarationNumber</value>
@@ -361,7 +350,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998b-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">Destination</value>
@@ -386,7 +374,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998c-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">ForwarderShipmentNumber</value>
@@ -411,7 +398,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998d-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">ForwardingOrBrokerage</value>
@@ -436,7 +422,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998e-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">GoodsValue</value>
@@ -461,7 +446,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd998f-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">GoodsValueCurrency</value>
@@ -486,7 +470,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9990-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">GrossWeight</value>
@@ -511,7 +494,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9991-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">IncoTerms</value>
@@ -536,7 +518,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9992-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">MasterWaybillNumber</value>
@@ -561,7 +542,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9993-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">MeasureUnit</value>
@@ -586,7 +566,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9994-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">Origin</value>
@@ -611,7 +590,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9995-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">POD</value>
@@ -636,7 +614,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9996-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">POL</value>
@@ -661,7 +638,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9997-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">Pieces</value>
@@ -686,7 +662,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9998-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">ProductType</value>
@@ -711,7 +686,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd9999-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">ShipmentMode</value>
@@ -736,7 +710,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999a-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">TranportationShipperDepartment</value>
@@ -761,7 +734,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999b-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">TransportationType</value>
@@ -786,7 +758,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999c-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VendorName</value>
@@ -811,7 +782,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999d-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VendorNumber</value>
@@ -836,7 +806,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999e-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VendorTaxNumber</value>
@@ -861,7 +830,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd999f-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VesselName</value>
@@ -886,7 +854,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a0-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VolumeCBM</value>
@@ -911,7 +878,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a1-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VolumeUnit</value>
@@ -936,7 +902,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a2-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">VolumeWeight</value>
@@ -961,7 +926,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a3-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">WaybillNumber</value>
@@ -986,7 +950,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a4-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">WaybillType</value>
@@ -1011,7 +974,6 @@
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
             <record name="node_hints" javaclass="com.wm.util.Values">
-              <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81/12cd99a5-aa25-11ee-a5df-ffc186a64d81</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">WeightUnit</value>
@@ -1090,7 +1052,6 @@
           <value name="field_largerEditor">false</value>
           <value name="field_password">false</value>
           <value name="field_usereditable">true</value>
-          <value name="id">12cd9980-aa25-11ee-a5df-ffc186a64d81</value>
         </record>
         <value name="is_public">false</value>
         <value name="field_name">ShipmentDetails</value>
