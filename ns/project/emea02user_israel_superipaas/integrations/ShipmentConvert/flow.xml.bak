@@ -5,17 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE NAME="Shipment" SERVICE="ShipmentPackage.integrations:ShipmentDetails">
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
   <COMMENT></COMMENT>
-
-  <!-- nodes -->
-
-<MAP MODE="INPUT">
-  <COMMENT></COMMENT>
-</MAP>
-
-<MAP MODE="OUTPUT">
-  <COMMENT></COMMENT>
-</MAP>
-</INVOKE>
+</SEQUENCE>
 </FLOW>
