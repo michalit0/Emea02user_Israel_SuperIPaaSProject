@@ -24,7 +24,7 @@
             <value name="field_usereditable">true</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">ShipmentINWrapper</value>
+          <value name="field_name">CustomsINWrapper</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="nillable">false</value>
@@ -943,10 +943,9 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">true</value>
-            <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">ShipmentOutWrapper</value>
+          <value name="field_name">CustomsOutWrapper</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="nillable">false</value>
@@ -957,7 +956,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d81-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">B2B</value>
@@ -982,7 +980,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d82-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Carrier</value>
@@ -1007,7 +1004,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d83-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ChargeableWeight</value>
@@ -1032,7 +1028,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d84-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CompanyCoutryCode</value>
@@ -1057,7 +1052,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d85-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CompanyID</value>
@@ -1082,7 +1076,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d86-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServiceEmail</value>
@@ -1107,7 +1100,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d87-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServiceName</value>
@@ -1132,7 +1124,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d88-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServicePhone</value>
@@ -1157,7 +1148,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d89-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomsDeclarationDate</value>
@@ -1182,7 +1172,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d8a-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomsDeclarationNumber</value>
@@ -1207,7 +1196,6 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">a21b0d80-aa33-11ee-a5df-ffc186a64d81/a21b0d8b-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Destination</value>
@@ -1272,13 +1260,14 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704286053084</value>
+    <value name="lastModifiedDate">1704287160462</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
+      <value name="group">default</value>
+      <value name="name">Cloud Runtime</value>
+      <value name="executionPlaneType">cloud</value>
     </record>
-    <value name="displayName">ShipmentConvert</value>
+    <value name="displayName">CustomConvert</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
@@ -1290,15 +1279,15 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ShipmentPackage.integrations:ShipmentDetails</value>
-          <value name="serviceName">ShipmentPackage.integrations:ShipmentDetails</value>
-          <value name="displayName">ShipmentDetails</value>
+          <value name="description">ShipmentPackage.integrations:CustomsDetails</value>
+          <value name="serviceName">ShipmentPackage.integrations:CustomsDetails</value>
+          <value name="displayName">CustomsDetails</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
-        <Boolean name="serviceReferenceResolved">false</Boolean>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
