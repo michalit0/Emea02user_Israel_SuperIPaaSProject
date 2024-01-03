@@ -943,10 +943,10 @@
             <value name="field_largerEditor">false</value>
             <value name="field_password">false</value>
             <value name="field_usereditable">true</value>
-            <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81</value>
+            <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81</value>
           </record>
           <value name="is_public">false</value>
-          <value name="field_name">ShipmentOut</value>
+          <value name="field_name">ShipmentOutWrapper</value>
           <value name="field_type">record</value>
           <value name="field_dim">0</value>
           <value name="nillable">false</value>
@@ -957,7 +957,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d1-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c90-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">B2B</value>
@@ -982,7 +982,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d2-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c91-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Carrier</value>
@@ -1007,7 +1007,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d3-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c92-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">ChargeableWeight</value>
@@ -1032,7 +1032,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d4-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c93-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CompanyCoutryCode</value>
@@ -1057,7 +1057,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d5-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c94-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CompanyID</value>
@@ -1082,7 +1082,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d6-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c95-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServiceEmail</value>
@@ -1107,7 +1107,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d7-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c96-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServiceName</value>
@@ -1132,7 +1132,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d8-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c97-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomerServicePhone</value>
@@ -1157,7 +1157,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562d9-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c98-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomsDeclarationDate</value>
@@ -1182,7 +1182,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562da-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c99-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">CustomsDeclarationNumber</value>
@@ -1207,7 +1207,7 @@
               <value name="node_type">record</value>
               <value name="node_subtype">unknown</value>
               <record name="node_hints" javaclass="com.wm.util.Values">
-                <value name="id">476562d0-aa26-11ee-a5df-ffc186a64d81/476562db-aa26-11ee-a5df-ffc186a64d81</value>
+                <value name="id">266ee580-aa33-11ee-a5df-ffc186a64d81/266f0c9a-aa33-11ee-a5df-ffc186a64d81</value>
               </record>
               <value name="is_public">false</value>
               <value name="field_name">Destination</value>
@@ -1272,7 +1272,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704279135939</value>
+    <value name="lastModifiedDate">1704284636380</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">7f588625fc3347aa8799fba19c35ff24</value>
       <value name="group">default</value>
