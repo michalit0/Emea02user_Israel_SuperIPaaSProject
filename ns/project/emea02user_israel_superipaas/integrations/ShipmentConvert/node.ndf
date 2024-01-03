@@ -1272,7 +1272,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1704285701225</value>
+    <value name="lastModifiedDate">1704286020534</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">cfafebd5d07541738be9c556911b6bcf</value>
       <value name="group">default</value>
@@ -1291,9 +1291,9 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="description">ShipmentPackage.integrations:ShipmentDetails1</value>
-          <value name="serviceName">ShipmentPackage.integrations:ShipmentDetails1</value>
-          <value name="displayName">ShipmentDetails1</value>
+          <value name="description">ShipmentPackage.integrations:ShipmentDetails</value>
+          <value name="serviceName">ShipmentPackage.integrations:ShipmentDetails</value>
+          <value name="displayName">ShipmentDetails</value>
         </record>
         <null name="outputMapSet"/>
         <null name="mapSet"/>

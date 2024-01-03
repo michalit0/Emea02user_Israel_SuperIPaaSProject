@@ -71,3 +71,11 @@ services:
   packages:
   - name: Shipment
     version: "1.0"
+- serviceName: ShipmentPackage.integrations:ShipmentDetails1
+  packages:
+  - name: Shipment
+    version: "1.0"
+- serviceName: pub.flow:savePipelineToFile
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.656
