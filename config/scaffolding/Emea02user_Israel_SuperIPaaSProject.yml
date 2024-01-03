@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/michalit0/Emea02user_Israel_SuperIPaaSProject
   gitUsername: michalit0
   gitBranch: main
+- name: Shipment
+  gitServerName: michalit0
+  gitUrl: https://github.com/michalit0
+  gitUsername: michalit0
+  gitBranch: master
 services:
 - serviceName: project.emea02user_israel_superipaas.integrations:ShipmentHandler
   packages:
