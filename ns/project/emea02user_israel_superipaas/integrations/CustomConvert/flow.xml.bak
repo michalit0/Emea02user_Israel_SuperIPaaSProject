@@ -273,6 +273,7 @@
             <record name="node_hints" javaclass="com.wm.util.Values">
               <value name="field_largerEditor">false</value>
               <value name="field_password">false</value>
+              <value name="id">31491f20-ad62-11ee-b30d-131430b48efe/31491f21-ad62-11ee-b30d-131430b48efe</value>
             </record>
             <value name="is_public">false</value>
             <value name="field_name">Result</value>
