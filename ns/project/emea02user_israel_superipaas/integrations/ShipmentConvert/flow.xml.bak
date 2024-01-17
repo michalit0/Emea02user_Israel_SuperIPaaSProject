@@ -4047,6 +4047,23 @@
         </array>
         <value name="modifiable">true</value>
       </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="node_comment"></value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">false</value>
+        </record>
+        <value name="is_public">false</value>
+        <value name="field_name">CUSTOMER_ID</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
     </array>
     <value name="modifiable">true</value>
   </record>
@@ -4557,6 +4574,9 @@
   <!-- nodes -->
 
 <MAPCOPY FROM="/ShipmentDetailsOUT;2;0" TO="/ShipmentOutWrapper;2;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/ShipmentDetailsOUT;2;0/CompanyID;1;0" TO="/CUSTOMER_ID;1;0">
 </MAPCOPY>
 
 <MAPDELETE FIELD="/ShipmentINWrapper;2;0">
