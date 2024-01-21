@@ -1913,11 +1913,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">emea02user</value>
-    <value name="lastModifiedDate">1705829063656</value>
+    <value name="lastModifiedDate">1705829142953</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">7f588625fc3347aa8799fba19c35ff24</value>
+      <value name="id">1c041ecf5810433783c4d4441fcf0099</value>
       <value name="group">default</value>
-      <value name="name">emea02user_israel_edge_1</value>
+      <value name="name">emea02user_israel_edge_2</value>
       <value name="executionPlaneType">onprem</value>
     </record>
     <value name="displayName">ShipmentConvert</value>
@@ -1957,7 +1957,7 @@
         <null name="outputMapSet"/>
         <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
-        <number name="nodeIndex" type="Long">0</number>
+        <number name="nodeIndex" type="Long">1</number>
         <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>

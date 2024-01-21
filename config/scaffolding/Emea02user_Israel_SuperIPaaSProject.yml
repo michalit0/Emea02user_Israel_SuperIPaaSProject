@@ -20,7 +20,7 @@ services:
 - serviceName: pub.flow:setCustomContextID
   packages:
   - name: WmPublic
-    version: 11.0.0.0.656
+    version: 11.0.0.0.714
 - serviceName: project.emea02user_israel_superipaas.integrations:CustomsHandler
   packages:
   - name: Emea02user_Israel_SuperIPaaSProject
